@@ -1,0 +1,183 @@
+{
+ "Controls": [
+              {
+              "Image": "报警器.png",
+              "Class": "声光报警器",
+              "Images": [
+              
+              ],
+              "Properties": [
+                             {
+                             "Enum": [
+                                      "正常",
+                                      "报警",
+                                      "火警"
+                                      ],
+                             "Name": "报警状态",
+                             "Type": "Enum",
+                             "Editable": false
+                             },
+                             {
+                             "Min": 0,
+                             "Value": 0,
+                             "Editable": true,
+                             "Name": "变声报警时长",
+                             "Type": "Int",
+                             "Max": 100
+                             },
+                             {
+                             "Min": 0,
+                             "Value": 0,
+                             "Editable": true,
+                             "Name": "不变声报警时长",
+                             "Type": "Int",
+                             "Max": 100
+                             },
+                             {
+                             "Min": 0,
+                             "Value": 0,
+                             "Editable": true,
+                             "Name": "消警时长",
+                             "Type": "Int",
+                             "Max": 100
+                             }
+                             ],
+              "Functions": [
+                            {
+                            "Param": {
+                            "ParamName": "报警时长"
+                            },
+                            "Name": "变声报警"
+                            },
+                            {
+                            "Param": {
+                            "ParamName": "报警时长"
+                            },
+                            "Name": "不变声报警"
+                            },
+                            {
+                            "Param": {
+                            
+                            },
+                            "Name": "消除报警"
+                            }
+                            ],
+              "Name": "声光报警器",
+              "Events": [
+                         {
+                         "Name": "发生报警"
+                         }
+                         ],
+              "Group": "安全保护",
+              "States": [
+                         {
+                         "Image": "",
+                         "Name": "正常状态的图片"
+                         },
+                         {
+                         "Image": "",
+                         "Name": "报警状态的图片"
+                         }
+                         ],
+              "Caption": "声光报警器",
+              "X": 200,
+              "Y": 10,
+              "Width": 64,
+              "Height": 64,
+              "IsVisible": true,
+              "IsEnable": true,
+              "R": null,
+              "C": null
+              },
+              {
+              "Image": "烟雾报警器.png",
+              "Class": "声光报警器",
+              "Images": [
+              
+              ],
+              "Properties": [
+                             {
+                             "Enum": [
+                                      "正常",
+                                      "报警",
+                                      "火警"
+                                      ],
+                             "Name": "报警状态",
+                             "Type": "Enum",
+                             "Editable": false
+                             },
+                             {
+                             "Min": 0,
+                             "Value": 0,
+                             "Editable": true,
+                             "Name": "变声报警时长",
+                             "Type": "Int",
+                             "Max": 100
+                             },
+                             {
+                             "Min": 0,
+                             "Value": 0,
+                             "Editable": true,
+                             "Name": "不变声报警时长",
+                             "Type": "Int",
+                             "Max": 100
+                             },
+                             {
+                             "Min": 0,
+                             "Value": 0,
+                             "Editable": true,
+                             "Name": "消警时长",
+                             "Type": "Int",
+                             "Max": 100
+                             }
+                             ],
+              "Functions": [
+                            {
+                            "Param": {
+                            "ParamName": "报警时长"
+                            },
+                            "Name": "变声报警"
+                            },
+                            {
+                            "Param": {
+                            "ParamName": "报警时长"
+                            },
+                            "Name": "不变声报警"
+                            },
+                            {
+                            "Param": {
+                            
+                            },
+                            "Name": "消除报警"
+                            }
+                            ],
+              "Name": "声光报警器1",
+              "Events": [
+                         {
+                         "Name": "发生报警"
+                         }
+                         ],
+              "Group": "安全保护",
+              "States": [
+                         {
+                         "Image": "",
+                         "Name": "正常状态的图片"
+                         },
+                         {
+                         "Image": "",
+                         "Name": "报警状态的图片"
+                         }
+                         ],
+              "Caption": "烟雾报警器",
+              "X": 165,
+              "Y": 252.75,
+              "Width": 32,
+              "Height": 32,
+              "IsVisible": true,
+              "IsEnable": true,
+              "R": null,
+              "C": null
+              }
+              ]
+ 
+}

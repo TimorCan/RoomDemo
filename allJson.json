@@ -1,0 +1,235 @@
+ [
+  {
+  "Name": "新建模板",
+  "Rules": [
+            {
+            "Name": "新建场景",
+            "Remark": "",
+            "IsTimer": false,
+            "Time": "12:00",
+            "Week": "00000000",
+            "Actions": [
+                        {
+                        "Name": "声光报警器",
+                        "Action": "变声报警",
+                        "Delay": "22"
+                        }
+                        ]
+            },
+            {
+            "Name": "新建场景1",
+            "Remark": "",
+            "IsTimer": false,
+            "Time": "12:00",
+            "Week": "0000000",
+            "Actions": [
+            
+            ]
+            }
+            ],
+  "Device": {
+  "Name": "iPhone6/6s/7",
+  "Height": 1224,
+  "Width": 750,
+  "Scale": 2,
+  "Rows": 4,
+  "Columns": 3,
+  "Padding": 20
+  }
+  },
+  {"Pages": [
+             {
+             "Name": "新建页面",
+             "BackColor": "#FFFFFF",
+             "BackImg": "",
+             "Images": [
+                        "Resources/BackImg/Logo.png",
+                        "Resources/BackImg/CurPage.png"
+                        ],
+             "Rows": 4,
+             "Columns": 3,
+             "PageStyle": "Free",
+             "Controls": [
+                          {
+                          "Image": "Resources/Controls/Empty.png",
+                          "Class": "声光报警器",
+                          "Images": [
+                          
+                          ],
+                          "Properties": [
+                                         {
+                                         "Enum": [
+                                                  "正常",
+                                                  "报警",
+                                                  "火警"
+                                                  ],
+                                         "Name": "报警状态",
+                                         "Type": "Enum",
+                                         "Editable": false
+                                         },
+                                         {
+                                         "Min": 0,
+                                         "Value": 0,
+                                         "Editable": true,
+                                         "Name": "变声报警时长",
+                                         "Type": "Int",
+                                         "Max": 100
+                                         },
+                                         {
+                                         "Min": 0,
+                                         "Value": 0,
+                                         "Editable": true,
+                                         "Name": "不变声报警时长",
+                                         "Type": "Int",
+                                         "Max": 100
+                                         },
+                                         {
+                                         "Min": 0,
+                                         "Value": 0,
+                                         "Editable": true,
+                                         "Name": "消警时长",
+                                         "Type": "Int",
+                                         "Max": 100
+                                         }
+                                         ],
+                          "Functions": [
+                                        {
+                                        "Param": {
+                                        "ParamName": "报警时长"
+                                        },
+                                        "Name": "变声报警"
+                                        },
+                                        {
+                                        "Param": {
+                                        "ParamName": "报警时长"
+                                        },
+                                        "Name": "不变声报警"
+                                        },
+                                        {
+                                        "Param": {
+                                        
+                                        },
+                                        "Name": "消除报警"
+                                        }
+                                        ],
+                          "Name": "声光报警器",
+                          "Events": [
+                                     {
+                                     "Name": "发生报警"
+                                     }
+                                     ],
+                          "Group": "安全保护",
+                          "States": [
+                                     {
+                                     "Image": "",
+                                     "Name": "正常状态的图片"
+                                     },
+                                     {
+                                     "Image": "",
+                                     "Name": "报警状态的图片"
+                                     }
+                                     ],
+                          "Caption": "声光报警器",
+                          "X": 88,
+                          "Y": 79.75,
+                          "Width": 64,
+                          "Height": 64,
+                          "IsVisible": true,
+                          "IsEnable": true,
+                          "R": null,
+                          "C": null
+                          },
+                          {
+                          "Image": "Resources/Controls/Empty.png",
+                          "Class": "声光报警器",
+                          "Images": [
+                          
+                          ],
+                          "Properties": [
+                                         {
+                                         "Enum": [
+                                                  "正常",
+                                                  "报警",
+                                                  "火警"
+                                                  ],
+                                         "Name": "报警状态",
+                                         "Type": "Enum",
+                                         "Editable": false
+                                         },
+                                         {
+                                         "Min": 0,
+                                         "Value": 0,
+                                         "Editable": true,
+                                         "Name": "变声报警时长",
+                                         "Type": "Int",
+                                         "Max": 100
+                                         },
+                                         {
+                                         "Min": 0,
+                                         "Value": 0,
+                                         "Editable": true,
+                                         "Name": "不变声报警时长",
+                                         "Type": "Int",
+                                         "Max": 100
+                                         },
+                                         {
+                                         "Min": 0,
+                                         "Value": 0,
+                                         "Editable": true,
+                                         "Name": "消警时长",
+                                         "Type": "Int",
+                                         "Max": 100
+                                         }
+                                         ],
+                          "Functions": [
+                                        {
+                                        "Param": {
+                                        "ParamName": "报警时长"
+                                        },
+                                        "Name": "变声报警"
+                                        },
+                                        {
+                                        "Param": {
+                                        "ParamName": "报警时长"
+                                        },
+                                        "Name": "不变声报警"
+                                        },
+                                        {
+                                        "Param": {
+                                        
+                                        },
+                                        "Name": "消除报警"
+                                        }
+                                        ],
+                          "Name": "声光报警器1",
+                          "Events": [
+                                     {
+                                     "Name": "发生报警"
+                                     }
+                                     ],
+                          "Group": "安全保护",
+                          "States": [
+                                     {
+                                     "Image": "",
+                                     "Name": "正常状态的图片"
+                                     },
+                                     {
+                                     "Image": "",
+                                     "Name": "报警状态的图片"
+                                     }
+                                     ],
+                          "Caption": "声光报警器1",
+                          "X": 165,
+                          "Y": 252.75,
+                          "Width": 64,
+                          "Height": 64,
+                          "IsVisible": true,
+                          "IsEnable": true,
+                          "R": null,
+                          "C": null
+                          }
+                          ]
+             }
+             ]}
+  
+  ]

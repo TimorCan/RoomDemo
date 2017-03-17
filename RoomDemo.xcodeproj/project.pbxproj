@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BEE7AD8995BEE59DF789E7 /* Pods_RoomDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E455AB4BD88C2F858224DE02 /* Pods_RoomDemo.framework */; };
+		A846E1C31E7B78610034A000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846E1C21E7B78610034A000 /* AppDelegate.swift */; };
+		A846E1C51E7B78610034A000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846E1C41E7B78610034A000 /* ViewController.swift */; };
+		A846E1C81E7B78610034A000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A846E1C61E7B78610034A000 /* Main.storyboard */; };
+		A846E1CA1E7B78610034A000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A846E1C91E7B78610034A000 /* Assets.xcassets */; };
+		A846E1CD1E7B78610034A000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A846E1CB1E7B78610034A000 /* LaunchScreen.storyboard */; };
+		A846E1D51E7B78930034A000 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A846E1D41E7B78930034A000 /* data.json */; };
+		A846E1DB1E7B7FF00034A000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A846E1D81E7B7FF00034A000 /* Info.plist */; };
+		A846E1DC1E7B7FF00034A000 /* TMMuiLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A846E1DA1E7B7FF00034A000 /* TMMuiLazyScrollView.m */; };
+		A846E1FE1E7B83070034A000 /* 卧室.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1E01E7B83060034A000 /* 卧室.jpg */; };
+		A846E1FF1E7B83070034A000 /* 厨房.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1E11E7B83060034A000 /* 厨房.jpg */; };
+		A846E2001E7B83070034A000 /* 客厅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1E21E7B83060034A000 /* 客厅.jpg */; };
+		A846E2011E7B83070034A000 /* 整体.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1E31E7B83060034A000 /* 整体.jpg */; };
+		A846E2021E7B83070034A000 /* 卧室.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1E51E7B83060034A000 /* 卧室.jpg */; };
+		A846E2031E7B83070034A000 /* 厨房.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1E61E7B83060034A000 /* 厨房.jpg */; };
+		A846E2041E7B83070034A000 /* 客厅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1E71E7B83060034A000 /* 客厅.jpg */; };
+		A846E2051E7B83070034A000 /* 整体.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1E81E7B83060034A000 /* 整体.jpg */; };
+		A846E2061E7B83070034A000 /* 卧室.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1EA1E7B83060034A000 /* 卧室.jpg */; };
+		A846E2071E7B83070034A000 /* 厨房.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1EB1E7B83060034A000 /* 厨房.jpg */; };
+		A846E2081E7B83070034A000 /* 客厅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1EC1E7B83060034A000 /* 客厅.jpg */; };
+		A846E2091E7B83070034A000 /* 整体.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1ED1E7B83060034A000 /* 整体.jpg */; };
+		A846E20A1E7B83070034A000 /* 20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A846E1EF1E7B83060034A000 /* 20@3x.png */; };
+		A846E20B1E7B83070034A000 /* 40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A846E1F01E7B83060034A000 /* 40@2x.png */; };
+		A846E20C1E7B83070034A000 /* 40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A846E1F11E7B83070034A000 /* 40@3x.png */; };
+		A846E20D1E7B83070034A000 /* 60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A846E1F21E7B83070034A000 /* 60@2x.png */; };
+		A846E20E1E7B83070034A000 /* 60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A846E1F31E7B83070034A000 /* 60@3x.png */; };
+		A846E20F1E7B83070034A000 /* 9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A846E1F41E7B83070034A000 /* 9@2x.png */; };
+		A846E2101E7B83070034A000 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A846E1F51E7B83070034A000 /* icon.png */; };
+		A846E2111E7B83070034A000 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A846E1F61E7B83070034A000 /* icon@2x.png */; };
+		A846E2121E7B83070034A000 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A846E1F71E7B83070034A000 /* icon@3x.png */; };
+		A846E2131E7B83070034A000 /* 卧室1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1F81E7B83070034A000 /* 卧室1.jpg */; };
+		A846E2141E7B83070034A000 /* 卧室2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1F91E7B83070034A000 /* 卧室2.jpg */; };
+		A846E2151E7B83070034A000 /* 厨房1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1FA1E7B83070034A000 /* 厨房1.jpg */; };
+		A846E2161E7B83070034A000 /* 厨房2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1FB1E7B83070034A000 /* 厨房2.jpg */; };
+		A846E2171E7B83070034A000 /* 客厅1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1FC1E7B83070034A000 /* 客厅1.jpg */; };
+		A846E2181E7B83070034A000 /* 客厅2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A846E1FD1E7B83070034A000 /* 客厅2.jpg */; };
+		A846E21E1E7B847D0034A000 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A846E21D1E7B847D0034A000 /* AppConstants.swift */; };
+		A846E2201E7B88F00034A000 /* allJson.json in Resources */ = {isa = PBXBuildFile; fileRef = A846E21F1E7B88F00034A000 /* allJson.json */; };
+		A846E2231E7B8AE90034A000 /* 报警器.png in Resources */ = {isa = PBXBuildFile; fileRef = A846E2211E7B8AE90034A000 /* 报警器.png */; };
+		A846E2241E7B8AE90034A000 /* 烟雾报警器.png in Resources */ = {isa = PBXBuildFile; fileRef = A846E2221E7B8AE90034A000 /* 烟雾报警器.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A846E1BF1E7B78610034A000 /* RoomDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A846E1C21E7B78610034A000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A846E1C41E7B78610034A000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A846E1C71E7B78610034A000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A846E1C91E7B78610034A000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A846E1CC1E7B78610034A000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A846E1CE1E7B78610034A000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A846E1D41E7B78930034A000 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A846E1D81E7B7FF00034A000 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A846E1D91E7B7FF00034A000 /* TMMuiLazyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMMuiLazyScrollView.h; sourceTree = "<group>"; };
+		A846E1DA1E7B7FF00034A000 /* TMMuiLazyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMMuiLazyScrollView.m; sourceTree = "<group>"; };
+		A846E1E01E7B83060034A000 /* 卧室.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卧室.jpg"; sourceTree = "<group>"; };
+		A846E1E11E7B83060034A000 /* 厨房.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "厨房.jpg"; sourceTree = "<group>"; };
+		A846E1E21E7B83060034A000 /* 客厅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "客厅.jpg"; sourceTree = "<group>"; };
+		A846E1E31E7B83060034A000 /* 整体.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "整体.jpg"; sourceTree = "<group>"; };
+		A846E1E51E7B83060034A000 /* 卧室.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卧室.jpg"; sourceTree = "<group>"; };
+		A846E1E61E7B83060034A000 /* 厨房.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "厨房.jpg"; sourceTree = "<group>"; };
+		A846E1E71E7B83060034A000 /* 客厅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "客厅.jpg"; sourceTree = "<group>"; };
+		A846E1E81E7B83060034A000 /* 整体.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "整体.jpg"; sourceTree = "<group>"; };
+		A846E1EA1E7B83060034A000 /* 卧室.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卧室.jpg"; sourceTree = "<group>"; };
+		A846E1EB1E7B83060034A000 /* 厨房.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "厨房.jpg"; sourceTree = "<group>"; };
+		A846E1EC1E7B83060034A000 /* 客厅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "客厅.jpg"; sourceTree = "<group>"; };
+		A846E1ED1E7B83060034A000 /* 整体.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "整体.jpg"; sourceTree = "<group>"; };
+		A846E1EF1E7B83060034A000 /* 20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20@3x.png"; sourceTree = "<group>"; };
+		A846E1F01E7B83060034A000 /* 40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40@2x.png"; sourceTree = "<group>"; };
+		A846E1F11E7B83070034A000 /* 40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40@3x.png"; sourceTree = "<group>"; };
+		A846E1F21E7B83070034A000 /* 60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60@2x.png"; sourceTree = "<group>"; };
+		A846E1F31E7B83070034A000 /* 60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60@3x.png"; sourceTree = "<group>"; };
+		A846E1F41E7B83070034A000 /* 9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9@2x.png"; sourceTree = "<group>"; };
+		A846E1F51E7B83070034A000 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A846E1F61E7B83070034A000 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		A846E1F71E7B83070034A000 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
+		A846E1F81E7B83070034A000 /* 卧室1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卧室1.jpg"; sourceTree = "<group>"; };
+		A846E1F91E7B83070034A000 /* 卧室2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卧室2.jpg"; sourceTree = "<group>"; };
+		A846E1FA1E7B83070034A000 /* 厨房1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "厨房1.jpg"; sourceTree = "<group>"; };
+		A846E1FB1E7B83070034A000 /* 厨房2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "厨房2.jpg"; sourceTree = "<group>"; };
+		A846E1FC1E7B83070034A000 /* 客厅1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "客厅1.jpg"; sourceTree = "<group>"; };
+		A846E1FD1E7B83070034A000 /* 客厅2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "客厅2.jpg"; sourceTree = "<group>"; };
+		A846E21C1E7B83AA0034A000 /* RoomDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoomDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A846E21D1E7B847D0034A000 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		A846E21F1E7B88F00034A000 /* allJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allJson.json; sourceTree = "<group>"; };
+		A846E2211E7B8AE90034A000 /* 报警器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "报警器.png"; sourceTree = "<group>"; };
+		A846E2221E7B8AE90034A000 /* 烟雾报警器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烟雾报警器.png"; sourceTree = "<group>"; };
+		B1BE1DEB2019626895E4F864 /* Pods-RoomDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoomDemo/Pods-RoomDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BF66E81D7C3DB1D85701C533 /* Pods-RoomDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoomDemo/Pods-RoomDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E455AB4BD88C2F858224DE02 /* Pods_RoomDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoomDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A846E1BC1E7B78610034A000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BEE7AD8995BEE59DF789E7 /* Pods_RoomDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57DAC3D0D2156651055567D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1BE1DEB2019626895E4F864 /* Pods-RoomDemo.debug.xcconfig */,
+				BF66E81D7C3DB1D85701C533 /* Pods-RoomDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A846E1B61E7B78610034A000 = {
+			isa = PBXGroup;
+			children = (
+				A846E2211E7B8AE90034A000 /* 报警器.png */,
+				A846E2221E7B8AE90034A000 /* 烟雾报警器.png */,
+				A846E21D1E7B847D0034A000 /* AppConstants.swift */,
+				A846E21C1E7B83AA0034A000 /* RoomDemo-Bridging-Header.h */,
+				A846E1DD1E7B83060034A000 /* 智能家居图标和背景 */,
+				A846E1D71E7B7FF00034A000 /* LazyScrollView */,
+				A846E1D41E7B78930034A000 /* data.json */,
+				A846E21F1E7B88F00034A000 /* allJson.json */,
+				A846E1C11E7B78610034A000 /* RoomDemo */,
+				A846E1C01E7B78610034A000 /* Products */,
+				57DAC3D0D2156651055567D1 /* Pods */,
+				C5A3F0ECED9D3BDF76DC46BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A846E1C01E7B78610034A000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A846E1BF1E7B78610034A000 /* RoomDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A846E1C11E7B78610034A000 /* RoomDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A846E1C21E7B78610034A000 /* AppDelegate.swift */,
+				A846E1C41E7B78610034A000 /* ViewController.swift */,
+				A846E1C61E7B78610034A000 /* Main.storyboard */,
+				A846E1C91E7B78610034A000 /* Assets.xcassets */,
+				A846E1CB1E7B78610034A000 /* LaunchScreen.storyboard */,
+				A846E1CE1E7B78610034A000 /* Info.plist */,
+			);
+			path = RoomDemo;
+			sourceTree = "<group>";
+		};
+		A846E1D71E7B7FF00034A000 /* LazyScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A846E1D81E7B7FF00034A000 /* Info.plist */,
+				A846E1D91E7B7FF00034A000 /* TMMuiLazyScrollView.h */,
+				A846E1DA1E7B7FF00034A000 /* TMMuiLazyScrollView.m */,
+			);
+			path = LazyScrollView;
+			sourceTree = "<group>";
+		};
+		A846E1DD1E7B83060034A000 /* 智能家居图标和背景 */ = {
+			isa = PBXGroup;
+			children = (
+				A846E1DE1E7B83060034A000 /* APP背景及图标 */,
+				A846E1F51E7B83070034A000 /* icon.png */,
+				A846E1F61E7B83070034A000 /* icon@2x.png */,
+				A846E1F71E7B83070034A000 /* icon@3x.png */,
+				A846E1F81E7B83070034A000 /* 卧室1.jpg */,
+				A846E1F91E7B83070034A000 /* 卧室2.jpg */,
+				A846E1FA1E7B83070034A000 /* 厨房1.jpg */,
+				A846E1FB1E7B83070034A000 /* 厨房2.jpg */,
+				A846E1FC1E7B83070034A000 /* 客厅1.jpg */,
+				A846E1FD1E7B83070034A000 /* 客厅2.jpg */,
+			);
+			path = "智能家居图标和背景";
+			sourceTree = "<group>";
+		};
+		A846E1DE1E7B83060034A000 /* APP背景及图标 */ = {
+			isa = PBXGroup;
+			children = (
+				A846E1DF1E7B83060034A000 /* ip5 */,
+				A846E1E41E7B83060034A000 /* ip6 */,
+				A846E1E91E7B83060034A000 /* IP6+ */,
+				A846E1EE1E7B83060034A000 /* 图标 */,
+			);
+			path = "APP背景及图标";
+			sourceTree = "<group>";
+		};
+		A846E1DF1E7B83060034A000 /* ip5 */ = {
+			isa = PBXGroup;
+			children = (
+				A846E1E01E7B83060034A000 /* 卧室.jpg */,
+				A846E1E11E7B83060034A000 /* 厨房.jpg */,
+				A846E1E21E7B83060034A000 /* 客厅.jpg */,
+				A846E1E31E7B83060034A000 /* 整体.jpg */,
+			);
+			path = ip5;
+			sourceTree = "<group>";
+		};
+		A846E1E41E7B83060034A000 /* ip6 */ = {
+			isa = PBXGroup;
+			children = (
+				A846E1E51E7B83060034A000 /* 卧室.jpg */,
+				A846E1E61E7B83060034A000 /* 厨房.jpg */,
+				A846E1E71E7B83060034A000 /* 客厅.jpg */,
+				A846E1E81E7B83060034A000 /* 整体.jpg */,
+			);
+			path = ip6;
+			sourceTree = "<group>";
+		};
+		A846E1E91E7B83060034A000 /* IP6+ */ = {
+			isa = PBXGroup;
+			children = (
+				A846E1EA1E7B83060034A000 /* 卧室.jpg */,
+				A846E1EB1E7B83060034A000 /* 厨房.jpg */,
+				A846E1EC1E7B83060034A000 /* 客厅.jpg */,
+				A846E1ED1E7B83060034A000 /* 整体.jpg */,
+			);
+			path = "IP6+";
+			sourceTree = "<group>";
+		};
+		A846E1EE1E7B83060034A000 /* 图标 */ = {
+			isa = PBXGroup;
+			children = (
+				A846E1EF1E7B83060034A000 /* 20@3x.png */,
+				A846E1F01E7B83060034A000 /* 40@2x.png */,
+				A846E1F11E7B83070034A000 /* 40@3x.png */,
+				A846E1F21E7B83070034A000 /* 60@2x.png */,
+				A846E1F31E7B83070034A000 /* 60@3x.png */,
+				A846E1F41E7B83070034A000 /* 9@2x.png */,
+			);
+			path = "图标";
+			sourceTree = "<group>";
+		};
+		C5A3F0ECED9D3BDF76DC46BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E455AB4BD88C2F858224DE02 /* Pods_RoomDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A846E1BE1E7B78610034A000 /* RoomDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A846E1D11E7B78610034A000 /* Build configuration list for PBXNativeTarget "RoomDemo" */;
+			buildPhases = (
+				042B619ACEF605C608DCAB63 /* [CP] Check Pods Manifest.lock */,
+				A846E1BB1E7B78610034A000 /* Sources */,
+				A846E1BC1E7B78610034A000 /* Frameworks */,
+				A846E1BD1E7B78610034A000 /* Resources */,
+				E53A4499EA27D5F633C15D97 /* [CP] Embed Pods Frameworks */,
+				6E503C2BB3B0364D8B8472C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomDemo;
+			productName = RoomDemo;
+			productReference = A846E1BF1E7B78610034A000 /* RoomDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A846E1B71E7B78610034A000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = verfing;
+				TargetAttributes = {
+					A846E1BE1E7B78610034A000 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5RQ5Q6KF8R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A846E1BA1E7B78610034A000 /* Build configuration list for PBXProject "RoomDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A846E1B61E7B78610034A000;
+			productRefGroup = A846E1C01E7B78610034A000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A846E1BE1E7B78610034A000 /* RoomDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A846E1BD1E7B78610034A000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A846E2151E7B83070034A000 /* 厨房1.jpg in Resources */,
+				A846E2071E7B83070034A000 /* 厨房.jpg in Resources */,
+				A846E2051E7B83070034A000 /* 整体.jpg in Resources */,
+				A846E2041E7B83070034A000 /* 客厅.jpg in Resources */,
+				A846E2091E7B83070034A000 /* 整体.jpg in Resources */,
+				A846E2061E7B83070034A000 /* 卧室.jpg in Resources */,
+				A846E20D1E7B83070034A000 /* 60@2x.png in Resources */,
+				A846E2021E7B83070034A000 /* 卧室.jpg in Resources */,
+				A846E2171E7B83070034A000 /* 客厅1.jpg in Resources */,
+				A846E1FE1E7B83070034A000 /* 卧室.jpg in Resources */,
+				A846E2121E7B83070034A000 /* icon@3x.png in Resources */,
+				A846E20C1E7B83070034A000 /* 40@3x.png in Resources */,
+				A846E2011E7B83070034A000 /* 整体.jpg in Resources */,
+				A846E2031E7B83070034A000 /* 厨房.jpg in Resources */,
+				A846E2131E7B83070034A000 /* 卧室1.jpg in Resources */,
+				A846E2181E7B83070034A000 /* 客厅2.jpg in Resources */,
+				A846E1CD1E7B78610034A000 /* LaunchScreen.storyboard in Resources */,
+				A846E2201E7B88F00034A000 /* allJson.json in Resources */,
+				A846E1FF1E7B83070034A000 /* 厨房.jpg in Resources */,
+				A846E2231E7B8AE90034A000 /* 报警器.png in Resources */,
+				A846E1CA1E7B78610034A000 /* Assets.xcassets in Resources */,
+				A846E2001E7B83070034A000 /* 客厅.jpg in Resources */,
+				A846E20E1E7B83070034A000 /* 60@3x.png in Resources */,
+				A846E20A1E7B83070034A000 /* 20@3x.png in Resources */,
+				A846E2081E7B83070034A000 /* 客厅.jpg in Resources */,
+				A846E20B1E7B83070034A000 /* 40@2x.png in Resources */,
+				A846E1C81E7B78610034A000 /* Main.storyboard in Resources */,
+				A846E2101E7B83070034A000 /* icon.png in Resources */,
+				A846E2141E7B83070034A000 /* 卧室2.jpg in Resources */,
+				A846E1DB1E7B7FF00034A000 /* Info.plist in Resources */,
+				A846E2241E7B8AE90034A000 /* 烟雾报警器.png in Resources */,
+				A846E1D51E7B78930034A000 /* data.json in Resources */,
+				A846E2161E7B83070034A000 /* 厨房2.jpg in Resources */,
+				A846E20F1E7B83070034A000 /* 9@2x.png in Resources */,
+				A846E2111E7B83070034A000 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		042B619ACEF605C608DCAB63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E503C2BB3B0364D8B8472C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoomDemo/Pods-RoomDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E53A4499EA27D5F633C15D97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoomDemo/Pods-RoomDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A846E1BB1E7B78610034A000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A846E1C51E7B78610034A000 /* ViewController.swift in Sources */,
+				A846E1DC1E7B7FF00034A000 /* TMMuiLazyScrollView.m in Sources */,
+				A846E1C31E7B78610034A000 /* AppDelegate.swift in Sources */,
+				A846E21E1E7B847D0034A000 /* AppConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A846E1C61E7B78610034A000 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A846E1C71E7B78610034A000 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A846E1CB1E7B78610034A000 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A846E1CC1E7B78610034A000 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A846E1CF1E7B78610034A000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A846E1D01E7B78610034A000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A846E1D21E7B78610034A000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1BE1DEB2019626895E4F864 /* Pods-RoomDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RQ5Q6KF8R;
+				INFOPLIST_FILE = RoomDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.verfing.can.RoomDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/RoomDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A846E1D31E7B78610034A000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF66E81D7C3DB1D85701C533 /* Pods-RoomDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RQ5Q6KF8R;
+				INFOPLIST_FILE = RoomDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.verfing.can.RoomDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/RoomDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A846E1BA1E7B78610034A000 /* Build configuration list for PBXProject "RoomDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A846E1CF1E7B78610034A000 /* Debug */,
+				A846E1D01E7B78610034A000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A846E1D11E7B78610034A000 /* Build configuration list for PBXNativeTarget "RoomDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A846E1D21E7B78610034A000 /* Debug */,
+				A846E1D31E7B78610034A000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A846E1B71E7B78610034A000 /* Project object */;
+}
